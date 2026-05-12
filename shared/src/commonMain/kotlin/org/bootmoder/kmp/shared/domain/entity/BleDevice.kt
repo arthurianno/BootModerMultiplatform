@@ -8,7 +8,7 @@ package org.bootmoder.kmp.shared.domain.entity
  * @param rssi     Уровень сигнала в дБм (чем ближе к 0 — тем сильнее сигнал)
  * @param isValid  Результат валидации устройства (null — валидация не проводилась)
  * @param version  Версия прошивки устройства (заполняется после sendVersionCommand)
- * @param message  Дополнительное сообщение о статусе (ошибка, подсказка)
+ * @param message  Дополнительное сообщение о статусе (ошибка,подсказка)
  */
 data class BleDevice(
     val address: String,
